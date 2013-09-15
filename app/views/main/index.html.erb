@@ -3,39 +3,13 @@
         <div class="offset1 span10 current-weather">
             <%= image_tag "Cloud.png", :class => "weather-icon" %>
             <div class="row temperature">
-                <h1 id="current-temperature">30.0</h1>
+                <h1 id="current-temperature">Loading</h1>
             </div>
             <div class="row location">
-                <h1 id="current-location">SPRINGFIELD</h1>
+                <h1 id="current-location"></h1>
             </div>
             <div class="row">
-                <div class="offset2 forecast">
-                    <div class="span2 forecast-item">
-                        <%= image_tag "Clear.png", :class => "forecast-icon" %>
-                        <h5>23.5</h5>
-                        <h5>MON</h5>
-                    </div>
-                    <div class="span2 forecast-item">
-                        <%= image_tag "Clear.png", :class => "forecast-icon" %>
-                        <h5>23.5</h5>
-                        <h5>MON</h5>
-                    </div>
-                    <div class="span2 forecast-item">
-                        <%= image_tag "Clear.png", :class => "forecast-icon" %>
-                        <h5>23.5</h5>
-                        <h5>MON</h5>
-                    </div>
-                    <div class="span2 forecast-item">
-                        <%= image_tag "Clear.png", :class => "forecast-icon" %>
-                        <h5>23.5</h5>
-                        <h5>MON</h5>
-                    </div>
-                    <div class="span2 forecast-item">
-                        <%= image_tag "Clear.png", :class => "forecast-icon" %>
-                        <h5>23.5</h5>
-                        <h5>MON</h5>
-                    </div>
-                </div>
+                <ul class="offset2 forecast"/>
             </div>
         </div>
     </div>
