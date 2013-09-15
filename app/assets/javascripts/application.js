@@ -14,4 +14,9 @@
 //= require jquery_ujs
 //= require flat-ui
 //= require turbolinks
+//= require underscore
+//= require backbone
+//= require backbone_rails_sync
+//= require backbone_datalink
+//= require backbone/weather_watcher_rails
 //= require_tree .
