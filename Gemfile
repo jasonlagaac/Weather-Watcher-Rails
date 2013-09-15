@@ -9,6 +9,12 @@ gem 'rspec-rails'
 # Install httparty
 gem 'httparty'
 
+# Install Backbone Rails
+gem 'rails-backbone'
+
+# Flat UI Rails
+gem 'flat-ui-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

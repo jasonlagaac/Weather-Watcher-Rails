@@ -2,8 +2,12 @@ WeatherWatcherRails::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  get "weather/:lat/:long" => "weather#current_weather", :constraints => { :long => /-?\d+(\.\d+)/, :lat => /-?\d+(\.\d+)/ }
-  get "weather/fivedayforecast/:lat/:long" => "weather#five_day_forecast", :constraints => { :long => /-?\d+(\.\d+)/, :lat => /-?\d+(\.\d+)/ }
+  root 'main#index'
+
+  get "weather/:lat/:long" => "weather#current_weather", 
+      :constraints => { :long => /-?\d+(\.\d+)/, :lat => /-?\d+(\.\d+)/ }
+  get "weather/fivedayforecast/:lat/:long" => "weather#five_day_forecast", 
+      :constraints => { :long => /-?\d+(\.\d+)/, :lat => /-?\d+(\.\d+)/ }
 
 
   # You can have the root of your site routed with "root"
