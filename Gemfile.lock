@@ -27,6 +27,8 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.14)
+    bootstrap-sass (2.2.2.0)
+      sass (~> 3.2)
     builder (3.1.4)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -39,7 +41,10 @@ GEM
     ejs (1.0.0)
     erubis (2.7.0)
     execjs (2.0.1)
-    flat-ui-rails (0.0.2)
+    flatui-rails (0.0.4)
+      bootstrap-sass (= 2.2.2)
+      railties (>= 3.1)
+      sass-rails (>= 3.2.0)
     hike (1.2.3)
     httparty (0.11.0)
       multi_json (~> 1.0)
@@ -130,7 +135,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  flat-ui-rails
+  flatui-rails
   httparty
   jbuilder (~> 1.2)
   jquery-rails

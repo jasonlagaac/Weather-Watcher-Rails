@@ -13,7 +13,7 @@ gem 'httparty'
 gem 'rails-backbone'
 
 # Flat UI Rails
-gem 'flat-ui-rails'
+gem 'flatui-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
